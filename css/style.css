@@ -1,0 +1,45 @@
+body {
+    s
+    font-family: 'Segoe Script';
+}
+#turno {
+    margin: auto;
+    width: 100px;
+}
+#board {
+    margin: auto;
+    width: 400px;
+    height: 400px;
+    
+    font-size: 100px;
+    line-height: 131px;
+}
+.tile {
+    width: 131px;
+    height: 131px;
+    border: 1px solid black;
+    float: left;
+}
+#X {
+    color: red;
+}
+#O {
+    color: darkblue;
+}
+#winLine {
+    z-index: 2;
+    width: 400px;
+    height: 400px;
+    position: absolute;
+}
+#reset {
+    margin: auto;
+    width: 50px;
+    height: 50px;
+    background-color: aliceblue;
+    z-index: 6;
+}
+#reset img {
+    min-width: 100%;
+    max-width: 100%;
+}
